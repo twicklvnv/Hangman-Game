@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<title>Hangman Game!</title>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified CSS -->
@@ -12,45 +14,60 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<title>Hangman Game!</title>
+
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 	</head>
 
 	<body>
-		<h1>Hangman Game - WWII style</h1>
+		<!--<h1>Hangman Game - WWII style</h1>-->
 
 
 
 		<div class="container">
 			<div class="jumbotron">
+
+				<h1>Hangman Game - WWII style</h1>
+				<br>
+				<br>
+				<br>
+				<h3>Current Word</h3>
+				<br>
+				<br>
 				<p id="demo"></p>
+				<br>
+				<br>
+				<p id = "word"></p>
 
+				<!--<script src="./assets/javascript/game.js">
 
-				<script src="./assets/javascript/game.js">
+				</script>-->
 
-				</script>
-
+				<h3>Incorrect Letters Guessed</h3>
 				<p id = "lettersUsed"></p>
-
+				<br>
+				<br>
+				<h4> Guesses Left</h4>
+				<p id = "guessesLeft"></p>
+				<br>
 				<p id = "outcome"></p>
+				<br>
+				<br>
+				<h4>Wins</h4>
+				<p id = "wins"></p>
+				<br>
+				<br>
+				<div class="btn-group">
+					<button id="reset" type="button" class="btn btn-primary">New Word</button>
+				</div>			
 
 			</div>
 		</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</body>
 
+		<script src="./assets/javascript/game.js">
+
+		</script>
 </html>

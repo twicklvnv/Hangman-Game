@@ -1,0 +1,22 @@
+body {
+	background-image:url(../images/rrrusmc_camo_WWII_shop_preview.png);
+}
+
+
+.jumbotron {
+	background-image:url(../images/raisingtheflagiwojima.jpg);
+	height:1100px;
+	width:1200px;
+}
+
+h1 {
+	text-align:center;
+}
+
+h3 {
+	text-decoration:underline;
+}
+
+#outcome {
+	font-size:36px;
+}
